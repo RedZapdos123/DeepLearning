@@ -1,4 +1,4 @@
-#This program is linux compatible version of the YOLO-RayTune hyperparameter optimization program using the yolo1n pretrained model.
+#This program is linux compatible version of the YOLO-RayTune hyperparameter optimization program using the yolo11 pretrained model.
 #It uses Ray Tune's internal OptunaSearch algorithm along with ASHA scheduler, and yolo11 in-built AdamW loss function for hyperparamter optimzations.
 #The dataset used for testing this program is: https://www.kaggle.com/datasets/redzapdos123/modified-aerial-traffic-and-visdrone-dataset-yolo
 
