@@ -269,12 +269,12 @@ def main():
         points_to_evaluate=starting_points
     )
 
-    #Updated to use only storage_path and remove local_dir.
+    #The Ray Tune configurations.
     analysis = tune.run(
         train_yolo_trial_cv,
         resources_per_trial={"cpu": 12, "gpu": 1 if torch.cuda.is_available() else 0},
         config=config,
-        num_samples=20,
+        num_samples=20, #The number of trials to be performed.
         scheduler=scheduler,
         search_alg=search_alg,
         storage_path=RAY_RESULTS,  #Use this for both storage and local dir.
