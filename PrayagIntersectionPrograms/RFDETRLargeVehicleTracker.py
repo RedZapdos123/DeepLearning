@@ -1,3 +1,5 @@
+#This program uses the RoboFlow's RF-DETR Large Model, and the DeepSORT tracker with the VeriWild R50 ReID (from Fast ReID Model Zoo) for vehicle tracking.
+
 import torch
 import cv2
 import numpy as np
