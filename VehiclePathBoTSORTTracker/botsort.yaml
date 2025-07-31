@@ -1,5 +1,4 @@
 #BoT-SORT source code:https://github.com/NirAharon/BoT-SORT
-#The VERI-WILD ReID pretrained model: https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md
 
 tracker_type: botsort #Using BoT-SORT algorithm for tracking.
 track_high_thresh: 0.23 #The threshold for the first association.
@@ -18,5 +17,3 @@ proximity_thresh: 0.5
 appearance_thresh: 0.25
 #Using a ReID.
 with_reid: True
-#The path to the pretrained ReID model.            
-reid_model_path: "C:\\Users\\Xeron\\Videos\\PrayagIntersection\\veriwild_bot_R50-ibn.pth"
