@@ -1,5 +1,5 @@
 """This program does vehicles' detection using the yolo11m-obb pretrained model, and does vehicle tracking with YOLO in-built
-   Bot-SORT algorithm with the VERI-WILD ReID pretrained model (taken from FastReID Model Zoo) to do vehicle tracking with Unique IDs,
+   Bot-SORT algorithm with the YOLO inbuilt ReID pretrained model (taken from FastReID Model Zoo) to do vehicle tracking with Unique IDs,
    and do their trail or path tracking by plotting the vehicles' centres, with different colours for better distinguishibility, and
    visulisation. Only small and large vehicle classes are detected, and tracked.
 """
